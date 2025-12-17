@@ -166,7 +166,6 @@ with col2:
         y='engagementScore',
         color='sentiment',
         color_discrete_map={'Positive': '#10b981', 'Neutral': '#f59e0b', 'Negative': '#ef4444'},
-        trendline="ols"
     )
     fig.update_layout(xaxis_title="Tenure (Years)", yaxis_title="Engagement Score")
     st.plotly_chart(fig, use_container_width=True)
